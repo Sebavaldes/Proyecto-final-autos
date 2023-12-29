@@ -8,9 +8,10 @@ code {
 }
 
 .jumbotron-bg {
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF0ZN3buPghf8iUkJeV1lcSoxAxBi_d85oxg&usqp=CAU');
+  background-image: url('https://www.autoclasstrading.cl/images/sites_products-64c937261fa20.jpeg');
   background-size: cover;
   background-position: center;
+  color: white;
   /* Añade el siguiente código para ocultar el texto y el botón */
   display: flex;
   flex-direction: column;
@@ -18,8 +19,4 @@ code {
   align-items: center;
   height: 100vh;
   /* Ajusta la altura según sea necesario */
-}
-
-.hidden {
-  display: none;
 }
