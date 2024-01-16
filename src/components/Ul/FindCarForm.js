@@ -10,12 +10,8 @@ const FindCarForm = () => {
                     <label>Marca:</label>
                     <input type="text" placeholder="Ej. Toyota" />
 
-
-
                     <label>Modelo:</label>
                     <input type="text" placeholder="Ej. Camry" />
-
-
 
                     <label>Año:</label>
                     <input type="text" placeholder="Ej. 2022" />

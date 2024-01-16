@@ -2,28 +2,20 @@ import React from "react";
 
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import { Link } from "react-router-dom";
-import "../../styles/footer.css";
+import "./footer.css";
 
 
 const Footer = () => {
-    const date = new Date();
-    const year = date.getFullYear();
+
     return (
         <footer className="footer">
             <Container>
                 <Row>
 
-
-
-
-
                     <Col lg="3" md="4" sm="12">
                         <div className="mb-4">
                             <h5 className="footer__link-title"></h5>
                             <p className="section__description"></p>
-                            <div className="newsletter">
-
-                            </div>
                         </div>
                     </Col>
 

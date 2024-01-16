@@ -16,6 +16,10 @@ const navLinks = [
         path: "/cars2",
         display: "Vendidos",
     },
+    {
+        path: "/detalle",
+        display: "detalle",
+    },
 ];
 
 const Header = () => {
@@ -50,12 +54,8 @@ const Header = () => {
 
                         <Col lg="6" md="6" sm="6">
                             <div className="header__top__right d-flex align-items-center justify-content-end gap-3">
-                                <Link to="#" className=" d-flex align-items-center gap-1">
+                                <Link to="/login" className=" d-flex align-items-center gap-1">
                                     <i className="ri-login-circle-line"></i> Iniciar sesion
-                                </Link>
-
-                                <Link to="#" className=" d-flex align-items-center gap-1">
-                                    <i className="ri-user-line"></i> Registrarse
                                 </Link>
                             </div>
                         </Col>

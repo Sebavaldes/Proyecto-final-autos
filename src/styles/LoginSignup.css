@@ -1,0 +1,59 @@
+.loginsignup {
+    width: 100%;
+    height: 80vh;
+    background: url('https://www.xtrafondos.com/descargar.php?id=8337&resolucion=5120x2957') center/cover;
+    /* Cambia 'ruta/de/tu/imagen.jpg' por la ruta de tu imagen */
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginsignup-container {
+    width: 580px;
+    height: 600px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+}
+
+.loginsignup-container h1 {
+    margin: 20px 0;
+}
+
+.loginsignup-fields {
+    margin-top: 30px;
+}
+
+.loginsignup-fields input {
+    height: 50px;
+    /* Ajusté la altura */
+}
+
+.loginsignup-container button {
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.loginsignup-login {
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.loginsignup-login span {
+    color: #ff4141;
+    font-weight: 600;
+}
+
+.loginsignup-agree {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
