@@ -1,0 +1,34 @@
+/* Estilos para los botones */
+.custom-button {
+    background-color: #f9a826;
+    /* Color de fondo */
+    color: #fff;
+    /* Color del texto */
+    border: none;
+    /* Eliminar borde */
+    padding: 10px 20px;
+    /* Espaciado interno */
+    font-size: 16px;
+    /* Tamaño del texto */
+    cursor: pointer;
+    /* Cambiar cursor al pasar el ratón */
+    border-radius: 8px;
+    /* Bordes redondeados */
+    transition: background-color 0.3s ease;
+    /* Transición suave */
+}
+
+.custom-button:hover {
+    background-color: #e88e12;
+    /* Color de fondo al pasar el ratón */
+}
+
+.delete-button {
+    background-color: #dc3545;
+    /* Color de fondo */
+}
+
+.delete-button:hover {
+    background-color: #bd2130;
+    /* Color de fondo al pasar el ratón */
+}
