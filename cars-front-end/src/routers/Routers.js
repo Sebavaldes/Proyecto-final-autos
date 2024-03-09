@@ -7,7 +7,6 @@ import LoginSignup from "../pages/LoginSignup";
 import Inscribirse from "../pages/Inscribirse";
 import CarDetails from "../pages/CarDetails";
 import PublicarAutos from "../pages/PublicarAutos";
-import ListUserPage from "../pages/ListUserPage";
 import Header from "../components/Header/Header";
 
 const Routers = () => {
@@ -27,7 +26,6 @@ const Routers = () => {
                 <Route path="/login" element={<LoginSignup setIsAuthenticated={setIsAuthenticated} />} />
                 <Route path='/inscribirse' element={<Inscribirse />} />
                 <Route path='/publicar-autos' element={<PublicarAutos />} />
-                <Route path="/ListUserPage" element={<ListUserPage />} />
             </Routes>
         </>
     );
