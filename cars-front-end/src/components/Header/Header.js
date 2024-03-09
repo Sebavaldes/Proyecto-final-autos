@@ -20,10 +20,6 @@ const navLinks = [
         display: "Publica tu auto",
         requiresAuth: true
     },
-    {
-        path: "/ListUserPage",
-        display: "Prueba",
-    },
 ];
 
 const Header = ({ isAuthenticated, setIsAuthenticated }) => {
