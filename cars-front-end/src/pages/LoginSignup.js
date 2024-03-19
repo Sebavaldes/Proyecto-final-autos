@@ -74,7 +74,7 @@ const LoginSignup = ({ setIsAuthenticated }) => {
                                             <div className="pt-1 mb-4">
                                                 <button className="btn btn-dark btn-lg btn-block" type="button" onClick={logInUser}>Iniciar Sesión</button>
                                             </div>
-                                            <p className="mb-5 pb-lg-2" style={{ color: '#393f81' }}>¿No tienes una cuenta? <a href="#!" style={{ color: '#393f81' }}><Link to={`/inscribirse/`}>Regístrate aquí</Link></a></p>
+                                            <p className="mb-5 pb-lg-2" style={{ color: '#393f81' }}>¿No tienes una cuenta? <Link to={`/inscribirse/`} style={{ color: '#393f81' }}>Regístrate aquí</Link></p>
                                         </form>
                                     </div>
                                 </div>

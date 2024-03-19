@@ -175,9 +175,6 @@ def delete_car(car_id):
         return jsonify({"error": "Invalid Authorization header"}), 401
 
     token = parts[1]
-    # Aquí podrías realizar la verificación del token si es necesario
-
-    # Se asume que el user_id está codificado en el token Bearer
     user_id = token
     car_to_delete = Car.query.filter_by(id=car_id, user_id=user_id).first()
 
