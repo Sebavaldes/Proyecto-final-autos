@@ -30,7 +30,7 @@ const PublicarAutos = () => {
             data.user_id = user_id;
 
             try {
-                const response = await axios.post('http://localhost:5000/publicarautos', data);
+                const response = await axios.post('/publicarautos', data);
                 console.log(response);
                 navigate("/cars");
             } catch (error) {

@@ -14,7 +14,7 @@ const LoginSignup = ({ setIsAuthenticated }) => {
         } else if (password.length === 0) {
             alert("Password has left Blank!");
         } else {
-            axios.post('http://localhost:5000/login', {
+            axios.post('/login', {
                 email: email,
                 password: password
             })

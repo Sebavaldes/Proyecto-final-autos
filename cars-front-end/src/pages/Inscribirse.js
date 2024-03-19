@@ -12,7 +12,7 @@ const Inscribirse = () => {
     const navigate = useNavigate();
 
     const registerUser = () => {
-        axios.post('http://localhost:5000/inscribirse', {
+        axios.post('/inscribirse', {
             email: email,
             password: password,
             name: name,

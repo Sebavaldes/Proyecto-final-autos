@@ -14,7 +14,7 @@ const CarItem = () => {
     }, []);
 
     function getCars() {
-        axios.get('http://localhost:5000/listusers')
+        axios.get('/listusers')
             .then(response => {
                 setCars(response.data);
             })

@@ -18,7 +18,7 @@ const CarDetails = () => {
     useEffect(() => {
         const fetchCarDetails = async () => {
             try {
-                const response = await axios.get(`http://localhost:5000/cars/${slug}`);
+                const response = await axios.get(`/cars/${slug}`);
                 setCarDetails(response.data);
             } catch (error) {
                 console.error("Error fetching car details:", error);
@@ -30,7 +30,7 @@ const CarDetails = () => {
     }, [slug]);
 
     function deleteCar(id) {
-        axios.delete(`http://localhost:5000/cars/${id}`, {
+        axios.delete(`/cars/${id}`, {
             headers: { Authorization: `Bearer ${user_id}` }
         })
             .then(() => {
