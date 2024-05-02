@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify, session
 from flask_bcrypt import (
     Bcrypt,
 )
+
 from flask_cors import CORS
 from models import db, User, Car
 from flask_migrate import Migrate
@@ -9,11 +10,13 @@ from flask_marshmallow import Marshmallow
 import cloudinary
 import cloudinary.uploader
 from uuid import uuid4
+import os
+
 
 cloudinary.config(
-    cloud_name="denpjibiu",
-    api_key="965355981551416",
-    api_secret="da5ZG6CarCvjIvRd5ldtCvEbzLs",
+    cloud_name=os.getenv("CLOUDINARY_CLOUD_NAME"),
+    api_key=os.getenv("CLOUDINARY_API_KEY"),
+    api_secret=os.getenv("CLOUDINARY_API_SECRET"),
 )
 app = Flask(__name__)
 
